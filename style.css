@@ -116,11 +116,11 @@ nav .fa{
     height: 100vh;
     width: 200px;
     top: 0;
-    right: -200px;
+    right: -300px;
     z-index: 2;
   }
   nav .fa{
-    display:block;
+    display: block;
     color: #fff;
     margin: 10px;
     font-size: 22px;
@@ -177,6 +177,19 @@ h3{
   box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
+@media(max-width: 700px) 
+{
+.row{
+  flex-direction: column;
+}  
+  .ponuda h1{
+   font-size: 24px;
+  }
+  .ponuda p{
+    font-size: 13px;
+  }
+}
+
 /*-------------- VIJESTI --------*/
 
 .vijesti{
@@ -228,7 +241,16 @@ h3{
 .layer:hover h3{
   bottom: 49%;
   opacity: 1;
+}
 
+@media(max-width: 700px){
+  .vijesti img{
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+  .vijesti h3{
+    font-size: 17px;
+  }
 }
 /* ---------KAMPUS-------- */
 
@@ -257,4 +279,70 @@ h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
+  }
+
+  /*---------OSVRTI----------*/
+  .osvrti{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+  }
+  .osvrti-col{
+    flex-basis: 44%; 
+    border-radius: 10px;
+    margin-bottom: 5%;  
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+  }
+  .osvrti-col img{
+    height: 40px;
+    margin-left: 5px; 
+    margin-right: 30px;
+    border-radius: 50%;
+  }
+
+  .osvrti-col p{
+    padding: 0;
+  }
+  .osvrti-col h3{
+    margin-top:15px;
+    text-align: left;
+  }
+
+  .osvrti-col .fa{
+    color: firebrick;
+  }
+
+  @media(max-width: 700px){
+    .osvrti-col img{
+      margin-left: 0px;
+      margin-right: 15px;
+    }
+  }
+
+  /* --------ONLINE----------*/
+  .onlinekontakt{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgb(0, 0, 0,0.7),rgba(0,0,0,0.7)), url(slike/onlinebanner.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0 ;
+  }
+  .onlinekontakt h1{
+    color: white;
+    margin-bottom: 40px;
+    padding: 0;
+  }
+
+  @media(max-width: 700px){
+    .onlinekontakt h1{
+     font-size: 24px;
+    }
   }

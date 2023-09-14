@@ -15,7 +15,7 @@
 
 .header img{
  padding-left: 100px;
- padding-top:32px;
+ padding-top:  32px;
 }
 
 .nav{
@@ -43,23 +43,13 @@ align-items: center;
   padding: 8px 12px;
   position: relative;
 }
+
 .nav-links ul li a{
   color: white;
   text-decoration: none;  
   font-size: 16px;
 }
-.nav-links ul li::after{
-  content: "";
-  width: 0;
-  height: 2px;
-  background: red;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-}
-.nav-links ul li:hover::after{
-  width:100%;
-}
+
 
 .text-box{
   width: 90%;
@@ -346,3 +336,90 @@ h3{
      font-size: 24px;
     }
   }
+
+  .footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+
+  .icons .fa{
+    color: #FF0000;
+    margin: 0 13px; 
+    cursor: pointer;
+    padding: 18px 0;
+    font-size: 35px;
+  }
+
+.icons .fa-facebook{
+  color:#4267B2;
+}
+.icons .fa-twitter{
+  color: #1DA1F2;
+}
+.icons .fa-instagram{
+  color: #E1306C;
+}
+
+/*--------------SUB-HEADER---------*/
+.sub-header img{
+  padding-left: 50px;
+  padding-top: 16px;
+  text-align: left;
+ }
+ 
+.sub-header{
+  min-height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0), rgb(4, 9, 30)),url(slike/aboutbg.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.sub-header h1{
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+
+.about-us{
+  width: 80%;
+  margin: auto;
+  padding-top: 35px;  
+  padding-bottom: 50px;
+}
+
+.about-col{
+flex-basis: 48%;
+padding: 30px 2px;  
+}
+.about-col img{
+  width: 100%;
+}
+
+.about-col h1{
+  padding-top: 0;
+
+}
+
+.about-col p{
+  padding: 15px 0 25px;
+  font-size: 16px;
+  font-weight: 500  ;
+}
+
+.red-btn{
+border: 1px solid #f44336;
+background: transparent;
+color: red;
+}
+
+.red-btn:hover{
+  color: white;
+}

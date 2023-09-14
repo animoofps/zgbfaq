@@ -369,8 +369,8 @@ h3{
 
 /*--------------SUB-HEADER---------*/
 .sub-header img{
-  padding-left: 50px;
-  padding-top: 16px;
+  padding-left: 100px;
+  padding-top: 32px;
   text-align: left;
  }
  
@@ -405,7 +405,6 @@ padding: 30px 2px;
 
 .about-col h1{
   padding-top: 0;
-
 }
 
 .about-col p{

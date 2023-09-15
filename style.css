@@ -107,7 +107,9 @@ nav .fa{
     width: 200px;
     top: 0;
     right: -300px;
+    text-align: left;
     z-index: 2;
+    transition: 1s;
   }
   nav .fa{
     display: block;
@@ -119,6 +121,10 @@ nav .fa{
   .nav-links ul{
     padding: 30px;   
 }
+.header img{
+  padding-left: 25px;
+  padding-top:  8px;
+ }
 }
 
 /*-------Ponuda------*/
@@ -387,6 +393,7 @@ h3{
   color: white;
   margin-top: 100px;
 }
+/*-----------ABOUT----------*/
 
 .about-us{
   width: 80%;
@@ -421,4 +428,118 @@ color: red;
 
 .red-btn:hover{
   color: white;
+}
+
+@media(max-width: 700px)
+{
+.sub-header img{
+    padding-left: 25px;
+    padding-top:  8px;
+   }
+   .about-col p{
+    font-size: 15px;
+  }
+  .about-col h1{
+    font-size: 25px;
+  }
+}
+
+
+/*---------MAIN--------*/
+.studiji-content{
+  width: 80%;
+  margin: auto;
+ padding: 60px 0;
+}
+.studiji-left{
+flex-basis: 65%;
+}
+.studiji-left img{
+  width: 100%;
+}
+
+.studiji-left h2{
+  color: #222;
+  font-weight: 600;
+  margin: 30px 0;
+}
+.studiji-left p{
+  color: #999;
+  padding: 0;
+}
+
+.studiji-right{
+  flex-basis: 32%;
+}
+.studiji-right h3{
+  background-color: #f44336;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.studiji-right div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #555;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.comment-box{
+  border: 1px solid #ccc;
+  margin: 50px 0;
+  padding: 10px 20px;
+  width: 63%;
+
+}
+.comment-box h3{  
+  text-align: left;
+}
+.comment-form input, .comment-form textarea{
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background: #f0f0f0;
+}
+.comment-form button{
+  margin: 10px 0;
+}
+
+@media(max-width:700px){
+  .sub-header h1{
+    font-size: 24px;
+  }
+}
+
+.lokacija{
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+
+}
+.lokacija iframe{
+  width: 100%;
+}
+.kontakt{
+  width: 80%;
+  margin: auto;
+}
+.kontakt-col{
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+.kontakt-col div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.kontakt-col div fa{
+  font-size: 28px;
+  color: #f44336;
 }

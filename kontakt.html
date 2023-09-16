@@ -59,7 +59,15 @@
         </span>
       </div>
     </div>
-  <div class="kontakt-col"></div>
+  <div class="kontakt-col">
+    <form action="funkcije.php" method="post">
+      <input type="text" name="name" placeholder="Unesite svoje ime" required>
+      <input type="e-mail" name="email" placeholder="Unesite svoj e-mail" required>
+      <input type="text" name="subject" placeholder="Unesite predmet" required>
+      <textarea rows="8" name="message" placeholder="Poruka" required></textarea>
+      <button type="submit" class="hero-btn red-btn">Pošaljite poruku</button>
+    </form>
+  </div>
 </div>
 </section>
 <!--------FOOTER-------->

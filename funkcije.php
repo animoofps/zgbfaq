@@ -1,17 +1,17 @@
 <?php
-$name = $_POST["name"];
+$name = $_POST["ime"];
 $visitor_email = $_POST["email"];
-$subject = $_POST["subject"];
-$message = $_POST["message"];
+$subject = $_POST["predmet"];
+$message = $_POST["poruka"];
 
 $email_from = "sveuciliste@zagreb.hr";
 
-$email_subject = "New Form Submission";
+$email_subject = "Nova poruka";
 
-$email_body = "User Name: $name.\n".
-              "User Email: $visitor_email.\n".
-              "Subject: $subject.\n". 
-              "User Message: $message.\n";
+$email_body = "Ime: $name.\n".
+              "Email: $visitor_email.\n".
+              "Predmet: $subject.\n". 
+              "Poruka: $message.\n";
 
 $to = "totibod802@tenjb.com";
 

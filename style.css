@@ -274,9 +274,9 @@ h3 {
     margin-right: 15px;
   }
 
-  .vijesti h3 {
+  .layer h3 {
     font-size: 17px;
-
+    max-width: 80%;
   }
 }
 
@@ -769,11 +769,6 @@ h3 {
 }
 
 .sub-vijesti-col {
-  flex-basis: 48%;
-  padding: 30px 2px;
-}
-
-.sub-vijesti-col-img {
   flex-basis: 48%;
   padding: 30px 2px;
 }

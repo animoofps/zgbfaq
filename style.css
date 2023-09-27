@@ -848,3 +848,83 @@ h3 {
     font-size: 25px;
   }
 }
+
+/*UVJETI*/
+
+.uvjeti-koristenja {
+  text-align: left;
+  padding-top: 50px;
+}
+
+.uvjeti-koristenja h1 {
+  font-size: 36px;
+  text-align: left;
+}
+
+.col-uvjeti h3 {
+  font-size: 22px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.uvjeti-koristenja h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.col-uvjeti {
+  margin-left: 110px;
+}
+
+.uvjetipravila-font {
+  text-decoration: none;
+  color: #000000;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.uvjetipravila-font2 {
+  text-decoration: none;
+  color: #0000EE;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/*UVJETI*/
+
+
+/*PRAVILA PRIVATNOSTI*/
+
+.pravila-privatnosti {
+  text-align: left;
+  padding-top: 50px;
+}
+
+.pravila-privatnosti h1 {
+  font-size: 36px;
+  text-align: left;
+}
+
+.col-pravila h3 {
+  font-size: 22px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.pravila-privatnosti h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.col-pravila {
+  margin-left: 110px;
+}
+
+.uvjetipravila-font {
+  text-decoration: none;
+  color: #000000;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/*PRAVILA PRIVATNOSTI*/
